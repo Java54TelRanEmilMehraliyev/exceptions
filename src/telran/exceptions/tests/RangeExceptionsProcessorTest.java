@@ -9,7 +9,7 @@ import telran.exceptions.RangeExceptionsProcessor;
 
 class RangeExceptionsProcessorTest {
 
-	private static final int MIN =10;
+	private static final int MIN = 10;
 	private static final int MAX = 20;
 	private static final int N_RANGE_NUMBERS = 10;
 	private static final int RANGE_NUMBER = 15;

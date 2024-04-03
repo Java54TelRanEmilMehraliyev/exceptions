@@ -10,7 +10,6 @@ public class BallBrokenFloor {
 		brokenFloor = new Random().nextInt(1, nFloors + 1);
 	}
 	public int getBrokenFloor() {
-		//this method only for test
 		return brokenFloor;
 	}
 	public void checkFloor(int floor) throws Exception {

@@ -8,6 +8,7 @@ public class RangeExceptions {
 		this.min = min;
 		this.max = max;
 	}
+	
 	public static RangeExceptions getRangeExceptions(int min, int max) {
 		if(max <= min) {
 			throw new IllegalArgumentException
@@ -15,6 +16,7 @@ public class RangeExceptions {
 		}
 		return new RangeExceptions(min, max);
 	}
+	
 	public void checkNumber(int number) throws NumberGreaterRangeMaxException,
 	NumberLessRangeMinException {
 		if (number > max) {
