@@ -1,4 +1,4 @@
-package telran.exceptions;
+         package telran.exceptions;
 
 public class RangeExceptions {
 	private int min;
